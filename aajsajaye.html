@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lalit &amp; Deepa — Wedding Reception</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<style>
+:root{--maroon:#5a0f1e;--deep:#3a0812;--gold:#d4a84b;--cream:#fbf1dc}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Poppins',sans-serif;background:var(--deep);color:var(--cream);text-align:center;overflow-x:hidden}
+section{min-height:100vh;padding:56px 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:radial-gradient(circle at 50% 0,#7a1a2c 0,var(--deep) 70%)}
+section+section{min-height:auto;border-top:1px solid rgba(212,168,75,.25)}
+h1,h2{font-family:'Cormorant Garamond',serif;color:var(--gold);font-weight:700}
+h1{font-size:2.8rem}
+h2{font-size:1.9rem}
+.sub{letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;opacity:.85}
+.hi{font-family:'Tiro Devanagari Hindi',serif;line-height:1.9;color:var(--gold)}
+.om{font-size:3rem;color:var(--gold)}
+img.cari{width:min(78vw,320px);border-radius:18px;border:2px solid var(--gold);box-shadow:0 10px 40px rgba(0,0,0,.5)}
+.names{font-family:'Cormorant Garamond',serif;font-size:1.25rem}
+.big{font-family:'Cormorant Garamond',serif;font-size:1.7rem;color:var(--gold)}
+iframe{width:100%;max-width:420px;height:240px;border:2px solid var(--gold);border-radius:14px}
+a.btn{display:inline-block;margin-top:6px;padding:11px 24px;border-radius:30px;background:var(--gold);color:var(--deep);text-decoration:none;font-weight:500}
+#cd{display:flex;gap:10px;justify-content:center}
+#cd div{min-width:64px;padding:12px 6px;border:1px solid var(--gold);border-radius:12px;background:rgba(0,0,0,.25)}
+#cd b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--gold)}
+#cd span{font-size:.65rem;letter-spacing:.12em;text-transform:uppercase}
+#gate{position:fixed;inset:0;z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:var(--deep);cursor:pointer;transition:opacity .8s}
+#gate.gone{opacity:0;pointer-events:none}
+#gate .note{font-size:3.4rem;color:var(--gold);animation:pulse 1.6s infinite}
+@keyframes pulse{50%{transform:scale(1.18);opacity:.6}}
+#mute{position:fixed;right:14px;bottom:14px;z-index:15;width:46px;height:46px;border-radius:50%;border:1px solid var(--gold);background:rgba(58,8,18,.85);color:var(--gold);font-size:1.2rem;display:none}
+</style>
+</head>
+<body>
+
+<audio id="song" src="aajsajaye.mp3" loop preload="auto"></audio>
+
+<div id="gate">
+  <div class="note">♪</div>
+  <div class="sub">Tap to begin</div>
+</div>
+<button id="mute" aria-label="Toggle music">♪</button>
+
+<section>
+  <img class="cari" src="caricature_3.png" alt="Lalit &amp; Deepa">
+  <h1>Lalit &amp; Deepa</h1>
+  <p class="sub">Wedding Reception · 19 November 2026</p>
+  <p style="font-size:1.8rem;color:var(--gold)">⌄</p>
+</section>
+
+<section>
+  <div class="om">ॐ</div>
+  <p class="hi">।। श्री गणेशाय नमः ।।<br>वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ।।</p>
+  <p class="sub">With the blessings of God, Isht Dev &amp; Ancestors</p>
+  <p class="names">Late Smt. Kunti Devi &amp; Late Sh. Tika Ram Pandey</p>
+  <p class="names">Mrs. Mohani Devi &amp; Mr. Mahender Pandey</p>
+  <p>Cordially invite you to grace the auspicious occasion of the</p>
+  <h2>Wedding Reception Ceremony</h2>
+  <p>of their beloved son</p>
+  <p class="names"><b>Lalit</b> (Mrs. Mohani Devi &amp; Mr. Mahender Pandey)<br>&amp;<br><b>Deepa</b> (D/o Mrs. Kanchan Devi &amp; Mr. Dinesh Sati)</p>
+</section>
+
+<section>
+  <p class="sub">Reception Evening</p>
+  <p class="big">Thursday, 19 November 2026</p>
+  <p>From 7:00 P.M. Onwards</p>
+  <p style="opacity:.85">Join us for an evening of joy &amp; celebration</p>
+</section>
+
+<section>
+  <h2>Venue</h2>
+  <p class="big" style="font-size:1.5rem">The Rosario</p>
+  <p>A Luxury Banquet · 2nd Floor</p>
+  <p style="opacity:.85;font-size:.9rem">Opposite Dashrathpuri Gate No. 1 Metro Station<br>Mahavir Enclave Part 1, New Delhi, Delhi – 110045</p>
+  <iframe loading="lazy" src="https://www.google.com/maps?q=The+Rosario+A+Luxury+Banquet,+RZA1/20,+Dabri-Palam+Rd,+Block+A,+Vijay+Enclave,+Mahavir+Enclave,+New+Delhi,+Delhi+110045&amp;output=embed"></iframe>
+  <a class="btn" href="https://maps.app.goo.gl/diFdbhHBhnuDE7aF8">📍 Get Directions</a>
+</section>
+
+<section>
+  <p class="sub">✦ Counting Down To</p>
+  <h2>The Celebration Begins In</h2>
+  <div id="cd">
+    <div><b id="d">--</b><span>Days</span></div>
+    <div><b id="h">--</b><span>Hours</span></div>
+    <div><b id="m">--</b><span>Minutes</span></div>
+    <div><b id="s">--</b><span>Seconds</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>R . S . V . P .</h2>
+  <p class="names">Mahender Pandey</p>
+  <a class="btn" href="tel:+919891413743">📞 98914 13743</a>
+  <p class="names" style="margin-top:10px">Manoj Pandey</p>
+  <a class="btn" href="tel:+918744903733">📞 87449 03733</a>
+  <p class="sub" style="margin-top:28px">With Best Compliments — All Relatives &amp; Friends</p>
+</section>
+
+<script>
+const song=document.getElementById('song'),gate=document.getElementById('gate'),mute=document.getElementById('mute');
+function start(){
+  song.volume=.8;
+  song.play().catch(function(){});
+  gate.classList.add('gone');
+  mute.style.display='block';
+}
+gate.addEventListener('click',start);
+mute.addEventListener('click',function(){
+  if(song.paused){song.play();mute.style.opacity=1}else{song.pause();mute.style.opacity=.5}
+});
+// 19 Nov 2026, 7:00 PM IST
+const target=new Date('2026-11-19T19:00:00+05:30').getTime();
+function tick(){
+  let t=Math.max(0,target-Date.now());
+  const p=function(n){return String(n).padStart(2,'0')};
+  d.textContent=p(Math.floor(t/864e5));
+  h.textContent=p(Math.floor(t/36e5)%24);
+  m.textContent=p(Math.floor(t/6e4)%60);
+  s.textContent=p(Math.floor(t/1e3)%60);
+}
+tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
